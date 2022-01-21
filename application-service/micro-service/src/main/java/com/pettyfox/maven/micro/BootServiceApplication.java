@@ -1,4 +1,4 @@
-package com.pettyfox.maven.gateway.service;
+package com.pettyfox.maven.micro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,10 +13,10 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan({"com.pettyfox.maven"})
-public class GatewayServiceApplication {
+public class BootServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayServiceApplication.class, args);
+        SpringApplication.run(BootServiceApplication.class, args);
     }
 
 }
